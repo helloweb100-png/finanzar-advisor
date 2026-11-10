@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="FINANCIAL ADVISOR">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5B8DFF"/>
+      <stop offset="1" stop-color="#27D3F5"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#071428"/>
+  <path d="M10 22 C11 40 22 49 32 49 C42 49 53 40 54 22 C49 33 42 38 32 38 C22 38 15 33 10 22Z" fill="url(#g)"/>
+  <path d="M32 10 L43 25 H36 V34 H28 V25 H21 Z" fill="#D8AE5B"/>
+</svg>

@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>FINANCIAL ADVISOR | Crédito PYME, arrendamiento, factoraje y seguros para tu empresa</title>
+  <meta name="description" content="FINANCIAL ADVISOR es tu asesor financiero empresarial: crédito PYME, arrendamiento, factoraje, crédito simple y revolvente y seguros. Estructura el capital que tu empresa necesita para crecer y protegerse.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#040C1B">
+  <meta name="color-scheme" content="light dark">
+
+  <!-- Open Graph / redes -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_MX">
+  <meta property="og:site_name" content="FINANCIAL ADVISOR">
+  <meta property="og:title" content="FINANCIAL ADVISOR | Capital para crecer. Respaldo para no detenerte.">
+  <meta property="og:description" content="Crédito PYME, arrendamiento, factoraje, crédito simple y revolvente y seguros en una sola mesa de asesoría financiera para empresas.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="FINANCIAL ADVISOR | Asesoría financiera para empresas">
+  <meta name="twitter:description" content="Capital para crecer. Respaldo para no detenerte. Crédito PYME, arrendamiento, factoraje y seguros.">
+
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/logo.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- La clase "js" activa los estados iniciales de animación; si el JS falla, todo queda visible -->
+  <script>document.documentElement.classList.add('js');</script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["LocalBusiness", "FinancialService"],
+    "name": "FINANCIAL ADVISOR",
+    "description": "Asesoría financiera para empresas: crédito PYME, arrendamiento, factoraje, crédito simple y revolvente y seguros.",
+    "knowsAbout": ["Crédito PYME", "Arrendamiento", "Factoraje", "Crédito simple", "Crédito revolvente", "Seguros"],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Soluciones financieras para empresas",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Crédito PYME" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Arrendamiento" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Factoraje" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Crédito simple y revolvente" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Seguros" } }
+      ]
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "¿Qué es el factoraje y cuándo me conviene?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Es una solución para adelantar el cobro de tus facturas pendientes. Conviene cuando vendes a crédito y necesitas liquidez antes de que tus clientes paguen." } },
+      { "@type": "Question", "name": "¿Cuál es la diferencia entre crédito simple y crédito revolvente?",
+        "acceptedAnswer": { "@type": "Answer", "text": "El crédito simple entrega un monto definido con plazo y pagos pactados, ideal para proyectos con costo conocido. El revolvente es una línea disponible que se renueva conforme pagas, pensada para capital de trabajo recurrente." } },
+      { "@type": "Question", "name": "¿Qué es el arrendamiento y qué puedo arrendar?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Es una forma de usar maquinaria, equipo o vehículos pagando rentas en lugar de comprarlos de contado. Las condiciones dependen de cada caso." } },
+      { "@type": "Question", "name": "¿Qué necesito para empezar?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Basta una conversación: cuéntanos qué necesitas y te indicamos qué información conviene preparar según la solución." } },
+      { "@type": "Question", "name": "¿Todas las solicitudes se aprueban?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Cada solución está sujeta a análisis y aprobación. No prometemos resultados antes de conocer tu caso, pero te ayudamos a presentarlo de la mejor forma." } },
+      { "@type": "Question", "name": "¿Pueden ayudarme con más de un servicio a la vez?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Sí. Trabajamos crédito, arrendamiento, factoraje y seguros en una sola mesa de asesoría para que las piezas encajen entre sí." } }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+
+<!-- ===== Sprite de íconos y marca ===== -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="gMark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5B8DFF"/><stop offset="1" stop-color="#27D3F5"/>
+    </linearGradient>
+  </defs>
+  <!-- Marca provisional: cuernos (toro) que abrazan una flecha de crecimiento -->
+  <symbol id="i-mark" viewBox="0 0 64 64">
+    <path d="M10 22 C11 40 22 49 32 49 C42 49 53 40 54 22 C49 33 42 38 32 38 C22 38 15 33 10 22Z" fill="url(#gMark)"/>
+    <path d="M32 10 L43 25 H36 V34 H28 V25 H21 Z" fill="#D8AE5B"/>
+  </symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 20V11M10 20V5M16 20v-6M22 20H2"/></symbol>
+  <symbol id="i-gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.2"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.3 5.3l2.1 2.1M16.6 16.6l2.1 2.1M5.3 18.7l2.1-2.1M16.6 7.4l2.1-2.1"/></symbol>
+  <symbol id="i-invoice" viewBox="0 0 24 24"><path d="M6 2.5h9l4 4v15H6zM14.5 2.5v5h4.5M9 12h6M9 16h6"/></symbol>
+  <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol>
+  <symbol id="i-loop" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 1-14 5.3M4 12a8 8 0 0 1 14-5.3M18 3v4h-4M6 21v-4h4"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M8.5 12l2.5 2.5L16 9.5"/></symbol>
+  <symbol id="i-truck" viewBox="0 0 24 24"><path d="M2 6h11v10H2zM13 9h4l3 3v4h-7"/><circle cx="6.5" cy="18.5" r="1.8"/><circle cx="17" cy="18.5" r="1.8"/></symbol>
+  <symbol id="i-build" viewBox="0 0 24 24"><path d="M3 21h18M5 21V8l7-5 7 5v13M9 21v-6h6v6"/></symbol>
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12.04 2a9.9 9.9 0 0 0-8.5 14.9L2 22l5.25-1.38A9.9 9.9 0 1 0 12.04 2zm0 1.8a8.1 8.1 0 1 1-4.2 15.04l-.3-.18-3.1.82.83-3.02-.2-.31A8.1 8.1 0 0 1 12.04 3.8zM8.6 7.5c-.2 0-.5.07-.75.35-.25.28-.98.96-.98 2.34s1 2.7 1.14 2.9c.14.18 1.95 3.1 4.8 4.2 2.4.94 2.88.75 3.4.7.52-.05 1.67-.68 1.9-1.34.24-.66.24-1.22.17-1.34-.07-.12-.26-.19-.54-.33-.28-.14-1.67-.82-1.93-.92-.26-.1-.45-.14-.64.14-.19.28-.73.92-.9 1.1-.16.2-.33.21-.6.07-.3-.14-1.2-.44-2.3-1.4-.85-.76-1.42-1.7-1.6-1.98-.16-.28-.02-.43.12-.57.13-.13.28-.33.42-.5.14-.17.19-.28.28-.47.1-.19.05-.35-.02-.5-.07-.14-.64-1.55-.88-2.12-.23-.55-.47-.48-.64-.49z"/></symbol>
+  <!-- Toro y oso: trazos geométricos (se ocultan con MOSTRAR_TORO_OSO = false en script.js) -->
+  <symbol id="i-toro" viewBox="0 0 120 120">
+    <path d="M40 38C48 33 72 33 80 38L87 55C88 67 82 76 78 84L76 99C75 106 66 110 60 110C54 110 45 106 44 99L42 84C38 76 32 67 33 55Z"/>
+    <path d="M38 40C22 40 8 30 6 10C14 22 24 27 40 29"/>
+    <path d="M82 40C98 40 112 30 114 10C106 22 96 27 80 29"/>
+    <path d="M35 52L17 46L24 59L34 60"/>
+    <path d="M85 52L103 46L96 59L86 60"/>
+    <path d="M46 62L55 66M74 62L65 66"/>
+    <ellipse cx="60" cy="98" rx="14" ry="8"/>
+    <circle cx="54" cy="98" r="1.8"/><circle cx="66" cy="98" r="1.8"/>
+  </symbol>
+  <symbol id="i-oso" viewBox="0 0 120 120">
+    <circle cx="31" cy="34" r="13"/><circle cx="31" cy="34" r="6"/>
+    <circle cx="89" cy="34" r="13"/><circle cx="89" cy="34" r="6"/>
+    <path d="M60 26C41 26 28 38 28 56C28 68 33 76 40 82C45 87 52 90 60 90C68 90 75 87 80 82C87 76 92 68 92 56C92 38 79 26 60 26Z"/>
+    <ellipse cx="60" cy="78" rx="15" ry="11"/>
+    <path d="M54 71H66L60 78Z"/>
+    <circle cx="45" cy="57" r="3"/><circle cx="75" cy="57" r="3"/>
+    <path d="M60 78V84M53 87C57 90 63 90 67 87"/>
+  </symbol>
+</svg>
+
+<!-- ===== Cargador ===== -->
+<div class="loader" id="loader" role="status" aria-label="Cargando FINANCIAL ADVISOR">
+  <div class="loader__stage">
+    <span class="loader__ring"></span>
+    <span class="loader__ring loader__ring--2"></span>
+    <svg class="loader__mark" viewBox="0 0 64 64" aria-hidden="true">
+      <path class="lm-a" d="M10 22 C11 40 22 49 32 49 C42 49 53 40 54 22 C49 33 42 38 32 38 C22 38 15 33 10 22Z"/>
+      <path class="lm-b" d="M32 10 L43 25 H36 V34 H28 V25 H21 Z"/>
+    </svg>
+  </div>
+  <p class="loader__name">FINANCIAL ADVISOR</p>
+  <div class="loader__bar"><span id="loaderBar"></span></div>
+  <p class="loader__txt"><span id="loaderPct">0</span>% · Estructurando tu capital</p>
+</div>
+
+<div class="progress" aria-hidden="true"><span id="progreso"></span></div>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+
+<!-- ===== Encabezado ===== -->
+<header class="hdr" id="hdr">
+  <div class="hdr__bar">
+    <a class="brand" href="#inicio" aria-label="FINANCIAL ADVISOR, ir al inicio">
+      <svg class="mark brand__mark" aria-hidden="true"><use href="#i-mark"/></svg>
+      <span class="brand__txt"><b>FINANCIAL</b><i>ADVISOR</i></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="#servicios">Soluciones</a>
+      <a href="#industrias">Industrias</a>
+      <a href="#ciclos">Mercados</a>
+      <a href="#metodo">Método</a>
+      <a href="#faq">Preguntas</a>
+      <a class="btn btn--primary btn--sm nav__cta" href="#contacto" data-wa="Hola, quiero mi diagnóstico financiero para mi empresa.">Quiero mi diagnóstico</a>
+    </nav>
+    <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="nav" aria-label="Abrir menú"><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="contenido">
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="inicio" aria-labelledby="t-hero">
+  <div class="hero__bg" aria-hidden="true">
+    <div class="hero__aurora"></div>
+    <div class="hero__aurora hero__aurora--b"></div>
+    <div class="hero__grid"></div>
+    <canvas class="hero__canvas" id="lienzo"></canvas>
+  </div>
+
+  <div class="hero__inner" id="heroInner">
+    <div class="wrap hero__layout">
+      <div class="hero__txt">
+        <p class="hero__eyebrow" data-in style="--i:0"><span class="pulse-dot"></span> Asesoría financiera para empresas</p>
+        <h1 class="hero__h1" id="t-hero">
+          <span class="sr-only">FINANCIAL ADVISOR: asesoría en crédito PYME, arrendamiento, factoraje, crédito y seguros para empresas. </span>
+          <span class="line"><span style="--i:0">Capital para <em class="grad">crecer.</em></span></span>
+          <span class="line"><span style="--i:1">Respaldo para <em class="grad">no detenerte.</em></span></span>
+        </h1>
+        <p class="hero__lead" data-in style="--i:3">Estructuramos el financiamiento y la protección que tu empresa necesita: crédito PYME, arrendamiento, factoraje, crédito simple y revolvente, y seguros. Con el mercado al alza o a la baja, tu operación no tiene por qué esperar.</p>
+        <p class="hero__rot" data-in style="--i:4" aria-hidden="true"><span class="hero__rot-k">Hoy en tu mesa</span>
+          <span class="rot"><span class="on">Crédito PYME</span><span>Arrendamiento</span><span>Factoraje</span><span>Crédito simple</span><span>Línea revolvente</span><span>Seguros</span></span>
+        </p>
+        <div class="hero__cta" data-in style="--i:5">
+          <a class="btn btn--primary" href="#contacto" data-wa="Hola, quiero mi diagnóstico financiero para mi empresa."><span>Quiero mi diagnóstico financiero</span><svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="btn btn--ghost" href="#servicios"><span>Ver las 5 soluciones</span></a>
+        </div>
+        <p class="hero__note" data-in style="--i:6">Una conversación para entender tu caso. Sin tecnicismos.</p>
+      </div>
+
+      <div class="hero__visual" data-in style="--i:2">
+        <div class="orbita" id="orbita">
+          <div class="orbita__radar" aria-hidden="true"></div>
+          <div class="orbita__ring orbita__ring--1" aria-hidden="true"></div>
+          <div class="orbita__ring orbita__ring--2" aria-hidden="true"></div>
+          <div class="orbita__ring orbita__ring--3" aria-hidden="true"></div>
+          <div class="orbita__core" aria-hidden="true"><svg class="mark"><use href="#i-mark"/></svg></div>
+          <ul class="orbita__sats" aria-label="Soluciones de FINANCIAL ADVISOR">
+            <li style="--a:-90deg"><a class="sat" href="#srv-pyme"><span class="sat__i"><svg class="ico" aria-hidden="true"><use href="#i-chart"/></svg></span><span class="sat__t">Crédito PYME</span></a></li>
+            <li style="--a:-18deg"><a class="sat" href="#srv-arrendamiento"><span class="sat__i"><svg class="ico" aria-hidden="true"><use href="#i-gear"/></svg></span><span class="sat__t">Arrendamiento</span></a></li>
+            <li style="--a:54deg"><a class="sat" href="#srv-factoraje"><span class="sat__i"><svg class="ico" aria-hidden="true"><use href="#i-invoice"/></svg></span><span class="sat__t">Factoraje</span></a></li>
+            <li style="--a:126deg"><a class="sat" href="#srv-credito"><span class="sat__i"><svg class="ico" aria-hidden="true"><use href="#i-loop"/></svg></span><span class="sat__t">Simple y revolvente</span></a></li>
+            <li style="--a:198deg"><a class="sat" href="#srv-seguros"><span class="sat__i"><svg class="ico" aria-hidden="true"><use href="#i-shield"/></svg></span><span class="sat__t">Seguros</span></a></li>
+          </ul>
+          <div class="fchip fchip--a" aria-hidden="true">
+            <span class="fchip__bars"><i></i><i></i><i></i><i></i><i></i></span>
+            <span class="fchip__t"><b>Flujo de caja</b><small>Simulación ilustrativa</small></span>
+          </div>
+          <div class="fchip fchip--b" aria-hidden="true">
+            <span class="pulse-dot pulse-dot--gold"></span>
+            <span class="fchip__t"><b>Protección</b><small>En movimiento</small></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a class="hero__cue" href="#problema" aria-label="Bajar al contenido"><span>Desliza</span><i></i></a>
+</section>
+
+<!-- ===== Cinta de servicios (siempre en movimiento) ===== -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker__track">
+    <div class="ticker__group"><span>Crédito PYME</span><span>Arrendamiento</span><span>Factoraje</span><span>Crédito simple</span><span>Crédito revolvente</span><span>Seguros</span></div>
+    <div class="ticker__group"><span>Crédito PYME</span><span>Arrendamiento</span><span>Factoraje</span><span>Crédito simple</span><span>Crédito revolvente</span><span>Seguros</span></div>
+  </div>
+</div>
+
+<!-- ===== 01 PROBLEMA ===== -->
+<section class="sec problema" id="problema" aria-labelledby="t-problema">
+  <div class="wrap">
+    <p class="eyebrow" data-reveal>01 — El problema real</p>
+    <h2 class="lit" id="t-problema" data-lit>Las empresas no se detienen por falta de ideas. Se detienen cuando el <em>dinero llega tarde</em>, el <em>equipo envejece</em> o un <em>imprevisto</em> no estaba cubierto.</h2>
+    <p class="problema__p" data-reveal>En FINANCIAL ADVISOR ordenamos tu capital para que tu operación nunca tenga que esperar: financiamiento cuando creces, liquidez cuando cobras a plazo y protección cuando algo se mueve.</p>
+
+    <div class="cifras" data-stagger>
+      <div class="cifra" data-reveal><b><span class="count" data-to="5">5</span></b><p>soluciones financieras en una sola mesa de asesoría</p></div>
+      <div class="cifra" data-reveal><b><span class="count" data-to="4">4</span></b><p>pasos claros, del diagnóstico a tu seguimiento</p></div>
+      <div class="cifra" data-reveal><b><span class="count" data-to="2">2</span></b><p>escenarios de mercado, alcista y bajista, siempre con plan</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 02 SOLUCIONES (tarjetas que se apilan al hacer scroll) ===== -->
+<section class="sec servicios" id="servicios" aria-labelledby="t-serv">
+  <div class="wrap">
+    <header class="sec__head" data-reveal>
+      <p class="eyebrow">02 — Soluciones</p>
+      <h2 class="h2" id="t-serv">Cinco soluciones. Una sola mesa de asesoría.</h2>
+      <p class="lead">Cada empresa vive un momento distinto. Por eso no te vendemos un producto: diseñamos la combinación que encaja con tu flujo, tu etapa y tus metas.</p>
+    </header>
+
+    <div class="stack">
+
+      <!-- 1 · Crédito PYME -->
+      <article class="srv" id="srv-pyme" style="--i:0;--acc:#5B8DFF;--acc-rgb:91,141,255">
+        <div class="srv__in" data-spot>
+          <span class="srv__num" aria-hidden="true">01</span>
+          <div class="srv__body">
+            <p class="eyebrow eyebrow--acc"><svg class="ico" aria-hidden="true"><use href="#i-chart"/></svg> Crédito PYME</p>
+            <h3 class="srv__t">Financiamiento para que tu pyme dé el siguiente salto</h3>
+            <p class="srv__p">Capital estructurado para ampliar tu operación, surtir inventario, abrir una nueva línea o fortalecer tu flujo. Analizamos tu empresa y te acercamos la opción que tiene sentido para tu etapa.</p>
+            <ul class="ticks">
+              <li>Capital de trabajo e inversión para crecer</li>
+              <li>Estructura pensada para tu flujo real</li>
+              <li>Acompañamiento durante todo el proceso</li>
+            </ul>
+            <a class="btn btn--acc" href="#contacto" data-servicio="Crédito PYME" data-wa="Hola, quiero cotizar un Crédito PYME para mi empresa."><span>Quiero mi crédito PYME</span><svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+          <div class="srv__art" aria-hidden="true">
+            <svg viewBox="0 0 200 160" class="art" focusable="false">
+              <line class="a-base" x1="16" y1="140" x2="188" y2="140"/>
+              <rect class="a-bar" x="28" y="100" width="22" height="40" rx="4" style="--d:0s"/>
+              <rect class="a-bar" x="62" y="82" width="22" height="58" rx="4" style="--d:.2s"/>
+              <rect class="a-bar" x="96" y="64" width="22" height="76" rx="4" style="--d:.4s"/>
+              <rect class="a-bar" x="130" y="42" width="22" height="98" rx="4" style="--d:.6s"/>
+              <path class="a-line" d="M30 92 L73 70 L107 52 L141 24 L176 14"/>
+              <path class="a-head" d="M164 10 L178 14 L172 28"/>
+              <circle class="a-dot" cx="141" cy="24" r="4"/>
+            </svg>
+          </div>
+        </div>
+      </article>
+
+      <!-- 2 · Arrendamiento -->
+      <article class="srv" id="srv-arrendamiento" style="--i:1;--acc:#27D3F5;--acc-rgb:39,211,245">
+        <div class="srv__in" data-spot>
+          <span class="srv__num" aria-hidden="true">02</span>
+          <div class="srv__body">
+            <p class="eyebrow eyebrow--acc"><svg class="ico" aria-hidden="true"><use href="#i-gear"/></svg> Arrendamiento</p>
+            <h3 class="srv__t">Usa la maquinaria y el equipo que necesitas, desde hoy</h3>
+            <p class="srv__p">Equípate con maquinaria, equipo o vehículos sin comprometer de golpe tu capital. Tu empresa produce mientras paga el equipo con rentas planeadas, y tu liquidez queda libre para lo que sigue.</p>
+            <ul class="ticks">
+              <li>Maquinaria, equipo y unidades de transporte</li>
+              <li>Rentas planeadas según tu operación</li>
+              <li>Conservas tu liquidez para crecer</li>
+            </ul>
+            <a class="btn btn--acc" href="#contacto" data-servicio="Arrendamiento" data-wa="Hola, quiero cotizar un arrendamiento de maquinaria o equipo para mi empresa."><span>Quiero equipar mi empresa</span><svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+          <div class="srv__art" aria-hidden="true">
+            <svg viewBox="0 0 200 160" class="art" focusable="false">
+              <circle class="a-teeth" cx="86" cy="84" r="46"/>
+              <circle class="a-ring" cx="86" cy="84" r="30"/>
+              <circle class="a-ring" cx="86" cy="84" r="10"/>
+              <circle class="a-teeth a-teeth--s" cx="152" cy="38" r="18"/>
+              <circle class="a-ring" cx="152" cy="38" r="8"/>
+            </svg>
+          </div>
+        </div>
+      </article>
+
+      <!-- 3 · Factoraje -->
+      <article class="srv" id="srv-factoraje" style="--i:2;--acc:#D8AE5B;--acc-rgb:216,174,91">
+        <div class="srv__in" data-spot>
+          <span class="srv__num" aria-hidden="true">03</span>
+          <div class="srv__body">
+            <p class="eyebrow eyebrow--acc"><svg class="ico" aria-hidden="true"><use href="#i-invoice"/></svg> Factoraje</p>
+            <h3 class="srv__t">Convierte tus facturas en liquidez</h3>
+            <p class="srv__p">Si tus clientes pagan a plazo, tu flujo no tiene por qué esperar. Con factoraje adelantas el cobro de tus cuentas por cobrar y mantienes tu operación en movimiento, sin frenar nóminas ni proveedores.</p>
+            <ul class="ticks">
+              <li>Cobra antes, sin esperar el vencimiento</li>
+              <li>Libera capital de trabajo atorado en facturas</li>
+              <li>Pensado para empresas que venden a crédito</li>
+            </ul>
+            <a class="btn btn--acc" href="#contacto" data-servicio="Factoraje" data-wa="Hola, quiero información de factoraje para adelantar el cobro de mis facturas."><span>Quiero liquidez en mis facturas</span><svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+          <div class="srv__art" aria-hidden="true">
+            <svg viewBox="0 0 200 160" class="art" focusable="false">
+              <rect class="a-doc" x="18" y="30" width="62" height="92" rx="8"/>
+              <path class="a-docl" d="M32 56h34" style="--d:0s"/>
+              <path class="a-docl" d="M32 74h34" style="--d:.3s"/>
+              <path class="a-docl" d="M32 92h22" style="--d:.6s"/>
+              <path class="a-flow" d="M92 78H128"/>
+              <path class="a-head" d="M120 70L130 78L120 86"/>
+              <circle class="a-coin" cx="158" cy="78" r="28"/>
+              <text class="a-sym" x="158" y="90" text-anchor="middle">$</text>
+            </svg>
+          </div>
+        </div>
+      </article>
+
+      <!-- 4 · Crédito simple y revolvente -->
+      <article class="srv" id="srv-credito" style="--i:3;--acc:#3DDC97;--acc-rgb:61,220,151">
+        <div class="srv__in" data-spot>
+          <span class="srv__num" aria-hidden="true">04</span>
+          <div class="srv__body">
+            <p class="eyebrow eyebrow--acc"><svg class="ico" aria-hidden="true"><use href="#i-loop"/></svg> Crédito simple y revolvente</p>
+            <h3 class="srv__t">El monto exacto para tu proyecto, o una línea siempre disponible</h3>
+            <div class="duo">
+              <div class="duo__c"><b>Crédito simple</b><p>Un monto definido, con plazo y pagos pactados. Ideal para proyectos de inversión con costo conocido.</p></div>
+              <div class="duo__c"><b>Crédito revolvente</b><p>Una línea que se renueva conforme pagas. Ideal para cubrir capital de trabajo cuando lo necesites.</p></div>
+            </div>
+            <a class="btn btn--acc" href="#contacto" data-servicio="Crédito simple o revolvente" data-wa="Hola, quiero cotizar un crédito simple o una línea revolvente para mi empresa."><span>Quiero mi línea de crédito</span><svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+          <div class="srv__art" aria-hidden="true">
+            <svg viewBox="0 0 200 160" class="art" focusable="false">
+              <circle class="a-track" cx="100" cy="64" r="40"/>
+              <g class="a-orbit">
+                <path class="a-arc" d="M100 24 A40 40 0 0 1 140 64"/>
+                <path class="a-arc" d="M100 104 A40 40 0 0 1 60 64"/>
+                <path class="a-head" d="M133 56L141 66L150 57"/>
+                <path class="a-head" d="M67 72L59 62L50 71"/>
+              </g>
+              <text class="a-sym" x="100" y="75" text-anchor="middle">$</text>
+              <rect class="a-meter" x="30" y="128" width="140" height="10" rx="5"/>
+              <rect class="a-meter-fill" x="30" y="128" width="140" height="10" rx="5"/>
+            </svg>
+          </div>
+        </div>
+      </article>
+
+      <!-- 5 · Seguros -->
+      <article class="srv" id="srv-seguros" style="--i:4;--acc:#A78BFA;--acc-rgb:167,139,250">
+        <div class="srv__in" data-spot>
+          <span class="srv__num" aria-hidden="true">05</span>
+          <div class="srv__body">
+            <p class="eyebrow eyebrow--acc"><svg class="ico" aria-hidden="true"><use href="#i-shield"/></svg> Seguros</p>
+            <h3 class="srv__t">Protege lo que tomó años construir</h3>
+            <p class="srv__p">Cobertura para tu empresa, tu equipo, tus activos y tu operación. Evaluamos tus riesgos y te ayudamos a elegir la protección adecuada, para que un imprevisto no frene tu crecimiento.</p>
+            <ul class="ticks">
+              <li>Protección de activos y operación</li>
+              <li>Coberturas ajustadas al giro de tu empresa</li>
+              <li>Asesoría para elegir sin complicarte</li>
+            </ul>
+            <a class="btn btn--acc" href="#contacto" data-servicio="Seguros" data-wa="Hola, quiero cotizar seguros para proteger mi empresa."><span>Quiero proteger mi empresa</span><svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+          <div class="srv__art" aria-hidden="true">
+            <svg viewBox="0 0 200 160" class="art" focusable="false">
+              <path class="a-wave" d="M100 20L146 38V78C146 106 126 126 100 138C74 126 54 106 54 78V38Z"/>
+              <path class="a-wave" style="animation-delay:1.5s" d="M100 20L146 38V78C146 106 126 126 100 138C74 126 54 106 54 78V38Z"/>
+              <path class="a-shield" d="M100 20L146 38V78C146 106 126 126 100 138C74 126 54 106 54 78V38Z"/>
+              <path class="a-check" d="M80 80L95 95L124 62"/>
+            </svg>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== 03 DIAGNÓSTICO EXPRÉS ===== -->
+<section class="sec quiz" id="diagnostico" aria-labelledby="t-quiz">
+  <div class="wrap quiz__grid">
+    <div class="quiz__left">
+      <header class="quiz__intro" data-reveal>
+        <p class="eyebrow">03 — Diagnóstico exprés</p>
+        <h2 class="h2" id="t-quiz">¿Qué necesita tu empresa hoy?</h2>
+        <p class="lead">Elige la frase que más se parece a tu momento y te mostramos con qué solución conviene empezar.</p>
+      </header>
+      <div class="quiz__opts" role="group" aria-label="Necesidad de tu empresa" data-stagger>
+        <button type="button" class="opt" data-reveal data-k="pyme" aria-pressed="false"><span class="opt__i"><svg class="ico" aria-hidden="true"><use href="#i-chart"/></svg></span><span class="opt__t">Quiero crecer, pero el capital no alcanza</span><svg class="ico opt__a" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        <button type="button" class="opt" data-reveal data-k="arrendamiento" aria-pressed="false"><span class="opt__i"><svg class="ico" aria-hidden="true"><use href="#i-gear"/></svg></span><span class="opt__t">Necesito maquinaria o equipo nuevo</span><svg class="ico opt__a" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        <button type="button" class="opt" data-reveal data-k="factoraje" aria-pressed="false"><span class="opt__i"><svg class="ico" aria-hidden="true"><use href="#i-invoice"/></svg></span><span class="opt__t">Mis clientes me pagan a plazo</span><svg class="ico opt__a" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        <button type="button" class="opt" data-reveal data-k="simple" aria-pressed="false"><span class="opt__i"><svg class="ico" aria-hidden="true"><use href="#i-target"/></svg></span><span class="opt__t">Tengo un proyecto con monto definido</span><svg class="ico opt__a" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        <button type="button" class="opt" data-reveal data-k="revolvente" aria-pressed="false"><span class="opt__i"><svg class="ico" aria-hidden="true"><use href="#i-loop"/></svg></span><span class="opt__t">Quiero liquidez disponible todo el año</span><svg class="ico opt__a" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        <button type="button" class="opt" data-reveal data-k="seguros" aria-pressed="false"><span class="opt__i"><svg class="ico" aria-hidden="true"><use href="#i-shield"/></svg></span><span class="opt__t">Un imprevisto podría frenar mi operación</span><svg class="ico opt__a" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+      </div>
+    </div>
+
+    <aside class="res" id="res" aria-live="polite" data-spot data-reveal>
+      <div class="res__glow" aria-hidden="true"></div>
+      <p class="res__k">Tu punto de partida</p>
+      <div class="res__ico"><svg class="ico" id="resIco" aria-hidden="true"><use href="#i-chart"/></svg></div>
+      <h3 class="res__t" id="resT">Elige una opción</h3>
+      <p class="res__p" id="resP">Selecciona la frase que más se parece a tu momento y te mostramos la solución con la que conviene empezar.</p>
+      <a class="btn btn--gold" id="resCta" href="#contacto" data-wa="Hola, quiero que me asesoren sobre el financiamiento de mi empresa."><span>Quiero que me asesoren</span><svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      <p class="res__n">Orientación inicial: la solución final depende del análisis de tu caso.</p>
+    </aside>
+  </div>
+</section>
+
+<!-- ===== 04 INDUSTRIAS · imagen que se abre a pantalla completa con el scroll ===== -->
+<section class="expand" id="industrias" aria-labelledby="t-ind">
+  <div class="expand__pin">
+    <p class="expand__bgtxt" aria-hidden="true">INDUSTRIA</p>
+    <figure class="expand__media">
+      <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&amp;fit=crop&amp;w=2000&amp;q=75" alt="Operario cortando metal con una amoladora en un taller industrial, con chispas incandescentes en el aire" loading="lazy" decoding="async" onerror="this.style.display='none'">
+    </figure>
+    <div class="expand__shade" aria-hidden="true"></div>
+    <div class="wrap expand__txt">
+      <p class="eyebrow eyebrow--cy">04 — Industrias</p>
+      <h2 class="h2 h2--lt" id="t-ind">Para las empresas que producen, mueven y construyen.</h2>
+      <p class="lead lead--lt">Desde la línea de producción hasta la bodega y la obra: estructuramos el capital que mantiene tu operación en movimiento.</p>
+      <ul class="chips" aria-label="Industrias que atendemos">
+        <li>Manufactura</li><li>Logística</li><li>Construcción</li><li>Comercio</li><li>Servicios</li>
+      </ul>
+      <a class="btn btn--primary" href="#contacto" data-wa="Hola, quiero platicar sobre financiamiento para mi industria."><span>Quiero hablar de mi industria</span><svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- Sectores -->
+<section class="sec sectores" aria-labelledby="t-sect">
+  <div class="mq mq--out" aria-hidden="true">
+    <div class="mq__track">
+      <div class="mq__group"><span>Manufactura</span><span>Logística</span><span>Construcción</span><span>Comercio</span><span>Servicios</span></div>
+      <div class="mq__group"><span>Manufactura</span><span>Logística</span><span>Construcción</span><span>Comercio</span><span>Servicios</span></div>
+    </div>
+  </div>
+  <div class="wrap">
+    <h2 class="h3 h3--lt" id="t-sect" data-reveal>Soluciones a la medida de cada operación</h2>
+    <div class="sect__row" data-stagger>
+      <article class="sect" data-reveal data-spot>
+        <img src="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&amp;fit=crop&amp;w=900&amp;q=70" alt="Operarios y maquinaria industrial en una planta de manufactura" loading="lazy" decoding="async" onerror="this.style.display='none'">
+        <span class="sect__i"><svg class="ico" aria-hidden="true"><use href="#i-gear"/></svg></span>
+        <div class="sect__b"><h3>Manufactura</h3><p>Maquinaria, líneas de producción y capital de trabajo para producir sin pausas.</p></div>
+      </article>
+      <article class="sect" data-reveal data-spot>
+        <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&amp;fit=crop&amp;w=900&amp;q=70" alt="Bodega de logística con estantes y mercancía lista para distribuir" loading="lazy" decoding="async" onerror="this.style.display='none'">
+        <span class="sect__i"><svg class="ico" aria-hidden="true"><use href="#i-truck"/></svg></span>
+        <div class="sect__b"><h3>Logística y transporte</h3><p>Unidades, equipo y liquidez para que la cadena de suministro nunca se detenga.</p></div>
+      </article>
+      <article class="sect" data-reveal data-spot>
+        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&amp;fit=crop&amp;w=900&amp;q=70" alt="Obra de construcción con grúa y estructura en desarrollo" loading="lazy" decoding="async" onerror="this.style.display='none'">
+        <span class="sect__i"><svg class="ico" aria-hidden="true"><use href="#i-build"/></svg></span>
+        <div class="sect__b"><h3>Construcción</h3><p>Equipo, liquidez entre estimaciones y cobertura para proyectos que no admiten retrasos.</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 05 MERCADOS · toro y oso ===== -->
+<section class="sec ciclos" id="ciclos" aria-labelledby="t-ciclos" data-mode="alcista">
+  <div class="wrap">
+    <header class="sec__head sec__head--lt" data-reveal>
+      <p class="eyebrow eyebrow--cy">05 — Mercados</p>
+      <h2 class="h2 h2--lt" id="t-ciclos">Mercado al alza o a la baja, tu empresa con plan.</h2>
+      <p class="lead lead--lt">Los ciclos cambian y tu estrategia financiera no debería improvisarse. Mira cómo se mueve cada escenario y qué soluciones lo acompañan.</p>
+    </header>
+
+    <div class="ciclos__grid">
+      <div class="ciclos__chart glass" data-reveal>
+        <div class="ciclos__tabs" role="group" aria-label="Escenario de mercado">
+          <button type="button" class="tab" data-modo="alcista" aria-pressed="true"><svg class="mascota" aria-hidden="true"><use href="#i-toro"/></svg><span>Mercado alcista</span></button>
+          <button type="button" class="tab" data-modo="bajista" aria-pressed="false"><svg class="mascota" aria-hidden="true"><use href="#i-oso"/></svg><span>Mercado bajista</span></button>
+        </div>
+        <svg class="chart" viewBox="0 0 600 280" role="img" aria-label="Gráfica ilustrativa de un ciclo de mercado alcista o bajista">
+          <defs>
+            <linearGradient id="gArea" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="currentColor" stop-opacity=".38"/>
+              <stop offset="1" stop-color="currentColor" stop-opacity="0"/>
+            </linearGradient>
+            <linearGradient id="gScan" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+              <stop offset="1" stop-color="#fff" stop-opacity=".16"/>
+            </linearGradient>
+            <clipPath id="cpChart"><rect x="0" y="0" width="600" height="280"/></clipPath>
+          </defs>
+          <g class="chart__grid">
+            <path d="M0 70H600M0 140H600M0 210H600M100 0V280M200 0V280M300 0V280M400 0V280M500 0V280"/>
+          </g>
+          <g clip-path="url(#cpChart)"><rect class="chart__scan" x="0" y="0" width="120" height="280" fill="url(#gScan)"/></g>
+          <path id="chArea" class="chart__area" fill="url(#gArea)" d="M0 232 L40 218 L80 224 L120 190 L160 198 L200 160 L240 168 L280 130 L320 140 L360 100 L400 110 L440 72 L480 82 L520 50 L560 58 L600 36 L600 280 L0 280 Z"/>
+          <path id="chLine" class="chart__line" d="M0 232 L40 218 L80 224 L120 190 L160 198 L200 160 L240 168 L280 130 L320 140 L360 100 L400 110 L440 72 L480 82 L520 50 L560 58 L600 36"/>
+          <circle id="chPulse" class="chart__pulse" r="8" cx="600" cy="36"/>
+          <circle id="chDot" class="chart__dot" r="5" cx="600" cy="36"/>
+        </svg>
+        <p class="chart__note">Gráfica ilustrativa. No representa rendimientos reales.</p>
+      </div>
+
+      <div class="ciclos__info" aria-live="polite" data-reveal>
+        <div class="ciclos__mascot" aria-hidden="true">
+          <svg class="mascota mascota--lg is-on" data-m="alcista"><use href="#i-toro"/></svg>
+          <svg class="mascota mascota--lg" data-m="bajista"><use href="#i-oso"/></svg>
+        </div>
+
+        <div class="ciclos__panel is-on" data-panel="alcista">
+          <h3>Mercado alcista: crece con ventaja</h3>
+          <p>Cuando la demanda sube, quien tiene capacidad de respuesta gana terreno: más maquinaria, más inventario, más equipo. El reto es crecer sin ahogar tu flujo.</p>
+          <ul class="pills" aria-label="Soluciones recomendadas">
+            <li><a href="#srv-arrendamiento">Arrendamiento</a></li>
+            <li><a href="#srv-pyme">Crédito PYME</a></li>
+            <li><a href="#srv-credito">Crédito simple</a></li>
+          </ul>
+          <a class="btn btn--primary" href="#contacto" data-wa="Hola, quiero crecer con una estrategia financiera para mi empresa."><span>Quiero crecer con estrategia</span><svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </div>
+
+        <div class="ciclos__panel" data-panel="bajista">
+          <h3>Mercado bajista: protege tu liquidez</h3>
+          <p>Cuando el entorno se aprieta, cada día de flujo cuenta: cobra antes, ten una línea disponible y cubre los riesgos que no puedes absorber.</p>
+          <ul class="pills" aria-label="Soluciones recomendadas">
+            <li><a href="#srv-factoraje">Factoraje</a></li>
+            <li><a href="#srv-credito">Crédito revolvente</a></li>
+            <li><a href="#srv-seguros">Seguros</a></li>
+          </ul>
+          <a class="btn btn--primary" href="#contacto" data-wa="Hola, quiero blindar el flujo de mi empresa ante un mercado a la baja."><span>Quiero blindar mi flujo</span><svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 06 MÉTODO ===== -->
+<section class="sec metodo" id="metodo" aria-labelledby="t-metodo">
+  <div class="wrap metodo__grid">
+    <header class="metodo__head" data-reveal>
+      <p class="eyebrow">06 — Método</p>
+      <h2 class="h2" id="t-metodo">De la primera conversación a tu seguimiento, en 4 pasos.</h2>
+      <p class="lead">Sin trámites eternos ni lenguaje enredado. Cada paso tiene un propósito y tú siempre sabes en cuál estás.</p>
+      <a class="btn btn--ink" href="#contacto" data-wa="Hola, estoy listo para iniciar el diagnóstico financiero de mi empresa."><span>Estoy listo para empezar</span><svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+    </header>
+
+    <ol class="tl" id="tl">
+      <span class="tl__rail" aria-hidden="true"><span class="tl__fill"></span></span>
+      <li class="step">
+        <span class="step__n" aria-hidden="true">01</span>
+        <div class="step__b"><h3>Escuchamos y diagnosticamos</h3><p>Conocemos tu empresa, tu flujo y tus metas. Entendemos qué necesitas hoy y qué quieres lograr después.</p></div>
+      </li>
+      <li class="step">
+        <span class="step__n" aria-hidden="true">02</span>
+        <div class="step__b"><h3>Estructuramos a tu medida</h3><p>Diseñamos la combinación de crédito, arrendamiento, factoraje o seguro que encaja con tu operación.</p></div>
+      </li>
+      <li class="step">
+        <span class="step__n" aria-hidden="true">03</span>
+        <div class="step__b"><h3>Gestionamos contigo</h3><p>Preparamos tu expediente y te acompañamos en la gestión, para que tú sigas dirigiendo tu empresa.</p></div>
+      </li>
+      <li class="step">
+        <span class="step__n" aria-hidden="true">04</span>
+        <div class="step__b"><h3>Damos seguimiento</h3><p>Revisamos contigo cómo evoluciona tu empresa y ajustamos la estrategia para lo que sigue.</p></div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ===== 07 POR QUÉ ===== -->
+<section class="sec porque" id="porque" aria-labelledby="t-porque">
+  <div class="wrap">
+    <header class="sec__head" data-reveal>
+      <p class="eyebrow">07 — Por qué FINANCIAL ADVISOR</p>
+      <h2 class="h2" id="t-porque">Asesoría que se siente como tener un aliado financiero a tu lado.</h2>
+    </header>
+
+    <div class="bento" data-stagger>
+      <article class="bx bx--photo" data-reveal>
+        <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&amp;fit=crop&amp;w=1200&amp;q=70" alt="Dos profesionales cerrando un acuerdo con un apretón de manos" loading="lazy" decoding="async" onerror="this.style.display='none'">
+        <div class="bx__b">
+          <h3>Una sola mesa para todo tu capital</h3>
+          <p>Crédito, arrendamiento, factoraje y seguros con un mismo asesor. Menos vueltas, más claridad y piezas que sí encajan entre sí.</p>
+        </div>
+      </article>
+      <article class="bx" data-reveal data-spot>
+        <span class="bx__i"><svg class="ico" aria-hidden="true"><use href="#i-target"/></svg></span>
+        <h3>Lenguaje claro</h3>
+        <p>Te explicamos cada condición antes de que decidas. Sin tecnicismos que confundan.</p>
+      </article>
+      <article class="bx" data-reveal data-spot>
+        <span class="bx__i"><svg class="ico" aria-hidden="true"><use href="#i-loop"/></svg></span>
+        <h3>Hecho a tu flujo</h3>
+        <p>Diseñamos según cómo entra y sale el dinero en tu empresa, no según un molde.</p>
+      </article>
+      <article class="bx" data-reveal data-spot>
+        <span class="bx__i"><svg class="ico" aria-hidden="true"><use href="#i-shield"/></svg></span>
+        <h3>Acompañamiento real</h3>
+        <p>Del diagnóstico al seguimiento: no te entregamos un folleto, caminamos contigo.</p>
+      </article>
+      <article class="bx bx--dark" data-reveal data-spot>
+        <div class="bx__pair" aria-hidden="true"><svg class="mascota"><use href="#i-toro"/></svg><svg class="mascota"><use href="#i-oso"/></svg></div>
+        <h3>Estrategia para los dos ciclos</h3>
+        <p>Con el mercado al alza o a la baja, tu empresa tiene un plan para crecer y otro para protegerse.</p>
+        <a class="btn btn--primary btn--sm" href="#contacto" data-wa="Hola, quiero conocer mis opciones financieras para mi empresa."><span>Quiero conocer mis opciones</span><svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 08 PREGUNTAS ===== -->
+<section class="sec faqs" id="faq" aria-labelledby="t-faq">
+  <div class="wrap faqs__grid">
+    <header class="faqs__head" data-reveal>
+      <p class="eyebrow">08 — Preguntas frecuentes</p>
+      <h2 class="h2" id="t-faq">Lo que suelen preguntarnos antes de empezar.</h2>
+      <p class="lead">¿Tienes otra duda? Cuéntanosla y te respondemos con calma y sin letras chiquitas.</p>
+    </header>
+    <div class="faqs__list" data-reveal>
+      <details class="faq">
+        <summary>¿Qué es el factoraje y cuándo me conviene?</summary>
+        <div class="faq__a"><p>Es una solución para adelantar el cobro de tus facturas pendientes. Conviene cuando vendes a crédito y necesitas liquidez antes de que tus clientes paguen.</p></div>
+      </details>
+      <details class="faq">
+        <summary>¿Cuál es la diferencia entre crédito simple y revolvente?</summary>
+        <div class="faq__a"><p>El crédito simple entrega un monto definido con plazo y pagos pactados, ideal para proyectos con costo conocido. El revolvente es una línea disponible que se renueva conforme pagas, pensada para capital de trabajo recurrente.</p></div>
+      </details>
+      <details class="faq">
+        <summary>¿Qué es el arrendamiento y qué puedo arrendar?</summary>
+        <div class="faq__a"><p>Es una forma de usar maquinaria, equipo o vehículos pagando rentas en lugar de comprarlos de contado. Las condiciones dependen de cada caso.</p></div>
+      </details>
+      <details class="faq">
+        <summary>¿Qué necesito para empezar?</summary>
+        <div class="faq__a"><p>Basta una conversación: cuéntanos qué necesitas y te indicamos qué información conviene preparar según la solución.</p></div>
+      </details>
+      <details class="faq">
+        <summary>¿Todas las solicitudes se aprueban?</summary>
+        <div class="faq__a"><p>Cada solución está sujeta a análisis y aprobación. No prometemos resultados antes de conocer tu caso, pero sí te ayudamos a presentarlo de la mejor forma.</p></div>
+      </details>
+      <details class="faq">
+        <summary>¿Pueden ayudarme con más de un servicio a la vez?</summary>
+        <div class="faq__a"><p>Sí. Trabajamos crédito, arrendamiento, factoraje y seguros en una sola mesa de asesoría para que las piezas encajen entre sí.</p></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 09 CONTACTO ===== -->
+<section class="sec cta" id="contacto" aria-labelledby="t-cta">
+  <div class="dotgrid" id="dotgrid" aria-hidden="true"></div>
+  <div class="wrap cta__grid">
+    <div class="cta__txt" data-reveal>
+      <p class="eyebrow eyebrow--cy">09 — Contacto</p>
+      <h2 class="h2 h2--lt" id="t-cta">Estoy listo para ordenar el capital de mi empresa.</h2>
+      <p class="lead lead--lt">Cuéntanos tu caso y armamos contigo el primer paso. Te respondemos por WhatsApp.</p>
+      <ul class="ticks ticks--lt">
+        <li>Una conversación para entender tu caso</li>
+        <li>Recomendación según tu flujo y tu etapa</li>
+        <li>Acompañamiento de principio a fin</li>
+      </ul>
+    </div>
+
+    <div class="cta__card" data-reveal>
+      <form class="form" id="form" novalidate>
+        <h3 class="form__t">Cuéntanos tu caso</h3>
+        <div class="wa-only">
+          <div class="field">
+            <label for="f-nombre">Tu nombre</label>
+            <input id="f-nombre" name="nombre" type="text" autocomplete="name" placeholder="Nombre y apellido" required>
+            <span class="field__err" role="alert">Escribe tu nombre para continuar.</span>
+          </div>
+          <div class="field">
+            <label for="f-empresa">Tu empresa</label>
+            <input id="f-empresa" name="empresa" type="text" autocomplete="organization" placeholder="Nombre de tu empresa">
+          </div>
+          <div class="field">
+            <label for="f-servicio">¿Qué te interesa?</label>
+            <select id="f-servicio" name="servicio">
+              <option value="">Aún no lo sé, necesito orientación</option>
+              <option>Crédito PYME</option>
+              <option>Arrendamiento</option>
+              <option>Factoraje</option>
+              <option>Crédito simple o revolvente</option>
+              <option>Seguros</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-mensaje">Cuéntanos tu situación</label>
+            <textarea id="f-mensaje" name="mensaje" rows="3" placeholder="¿Qué quieres lograr con tu empresa?"></textarea>
+          </div>
+          <button class="btn btn--primary btn--block" type="submit"><svg class="ico ico--fill" aria-hidden="true"><use href="#i-wa"/></svg><span>Quiero mi diagnóstico por WhatsApp</span></button>
+          <p class="form__n">Al enviar se abrirá WhatsApp con tu mensaje ya escrito.</p>
+        </div>
+        <div class="wa-pendiente">
+          <span class="wa-pendiente__ico" aria-hidden="true"><svg class="ico ico--fill"><use href="#i-wa"/></svg></span>
+          <p class="wa-pendiente__t">Estamos conectando nuestro canal directo de WhatsApp.</p>
+          <p>Muy pronto podrás escribirnos desde aquí con tu mensaje ya listo. Mientras tanto, descubre con qué solución conviene empezar a tu empresa.</p>
+          <a class="btn btn--ink" href="#diagnostico"><span>Hacer mi diagnóstico exprés</span><svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===== Pie ===== -->
+<footer class="foot">
+  <div class="wrap foot__grid">
+    <div class="foot__brand">
+      <a class="brand" href="#inicio" aria-label="FINANCIAL ADVISOR, ir al inicio">
+        <svg class="mark brand__mark" aria-hidden="true"><use href="#i-mark"/></svg>
+        <span class="brand__txt"><b>FINANCIAL</b><i>ADVISOR</i></span>
+      </a>
+      <p>Asesoría financiera para empresas que no se detienen.</p>
+      <a class="btn btn--ghost btn--sm" href="#contacto" data-wa="Hola, quiero hablar con un asesor de FINANCIAL ADVISOR."><span>Hablemos de mi empresa</span><svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+    </div>
+    <nav class="foot__col" aria-label="Soluciones">
+      <h2>Soluciones</h2>
+      <a href="#srv-pyme">Crédito PYME</a>
+      <a href="#srv-arrendamiento">Arrendamiento</a>
+      <a href="#srv-factoraje">Factoraje</a>
+      <a href="#srv-credito">Crédito simple y revolvente</a>
+      <a href="#srv-seguros">Seguros</a>
+    </nav>
+    <nav class="foot__col" aria-label="Sitio">
+      <h2>Sitio</h2>
+      <a href="#problema">El problema real</a>
+      <a href="#diagnostico">Diagnóstico exprés</a>
+      <a href="#industrias">Industrias</a>
+      <a href="#ciclos">Mercados</a>
+      <a href="#metodo">Método</a>
+      <a href="#faq">Preguntas</a>
+    </nav>
+  </div>
+  <div class="wrap foot__legal">
+    <p>© <span id="anio">2026</span> FINANCIAL ADVISOR. Todos los derechos reservados.</p>
+    <p>Información de carácter informativo. Toda solución financiera está sujeta a análisis, condiciones y aprobación.</p>
+  </div>
+</footer>
+
+<!-- Botón flotante de WhatsApp (se activa cuando script.js tiene número) -->
+<a class="wa-float" id="waFloat" href="#contacto" hidden target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
+  <svg class="ico ico--fill" aria-hidden="true"><use href="#i-wa"/></svg>
+  <span class="wa-float__t">Escríbenos</span>
+</a>
+
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js"></script>
+<script defer src="script.js"></script>
+</body>
+</html>
